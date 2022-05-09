@@ -1,0 +1,28 @@
+.content-title {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0px ;
+    cursor: pointer;  
+}
+.content-title > hr {
+    display: none;
+}
+.content-title a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
+.content-title a:hover {
+    color: blue;
+}
+.section {
+    border: 1px solid #333;
+    margin-bottom: 5px;
+}
+@media only screen and (max-width: 991px) {
+    .footer-hidden {
+        display: none;
+    }
+
+}
